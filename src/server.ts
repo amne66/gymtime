@@ -42,7 +42,7 @@ server.register(fastifyjwt, {
 export function listen() {
 	server
 	 .listen({
-	  port: 3000	 })
+	  port: 3001	 })
 	 .catch((err) => {
 	  server.log.error(err);
 	  process.exit(1);
